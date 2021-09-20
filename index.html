@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Bootstrap</title>
+
+    <!-- load css bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <!-- warna -->
+    <h3 class="bg-danger text-success">Learn about Bootstrap </h3>
+    <h3 class="bg-info text-danger">Learn about Bootstrap</h3>
+    <h3 class="bg-primary text-warning">Learn about Bootstrap</h3>
+    <h3 class="bg-success text-primary">Learn about Bootstrap</h3>
+    <h3 class="bg-warning text-info">Learn about Bootstrap</h3>
+
+    <hr />
+    <!-- grid -->
+    <div class="row">
+        <div class="p-2 mb-2 bg-success col-lg-3 col-md-6 col-sm-12">
+            XI RPL 4
+        </div>
+        <div class="p-2 mb-2 bg-danger col-lg-3 col-md-6 col-sm-12">
+            XI RPL 4
+        </div>
+        <div class="p-2 mb-2 bg-warning col-lg-3 col-md-6 col-sm-12">
+            XI RPL 4
+        </div>
+        <div class="p-2 mb-2 bg-info col-lg-3 col-md-6 col-sm-12">
+            XI RPL 4
+        </div>
+    </div>
+
+    <hr />
+    <!-- button -->
+    <button class="btn btn-success btn-lg"> 
+        Click Me
+    </button>
+    <button class="btn btn-danger btn-md"> 
+        Click Me
+    </button>
+    <button class="btn btn-dark btn-sm"> 
+        Click Me
+    </button>
+
+    <button class="btn btn-outline-success btn-lg"> 
+        Click Me
+    </button>
+    <button class="btn btn-outline-danger btn-md"> 
+        Click Me
+    </button>
+    <button class="btn btn-outline-dark btn-sm"> 
+        Click Me
+    </button>
+
+    <hr>
+    <!-- alert -->
+    <div class="alert alert-success">
+        Selamat, Anda Berhasil Login.
+    </div>
+    <div class="alert alert-warning">
+        Battery Anda Lemah
+    </div>
+    <div class="alert alert-danger">
+        Maaf, jaringan anda terputus.
+    </div>
+    <div class="alert alert-info">
+        Jam 11 kita pulang
+    </div>
+
+    <hr>
+    <!-- card -->
+    <div class="card col-lg-6">
+        <!-- bagian header -->
+        <div class="card-header bg-info">
+            <h3 class="text-white">Login Form</h3>
+        </div>
+
+        <!-- bagian body -->
+        <div class="card-body">
+            <input type="text" class="form-control mb-3"
+            placeholder="Username">
+
+            <input type="password" class="form-control mb-3"
+            placeholder="Password">
+        </div>
+
+        <!-- bagian footer -->
+        <div class="card-footer">
+            <button class="btn btn-primary btn-block">
+                Login
+            </button>
+        </div>
+    </div>
+
+    <!-- image gallery -->
+    <div class="row">
+        <div class="card col-lg-3 col-md-6 col-sm-12">
+            <div class="card-body">
+                <img src="icecream/chocolate.jpg" class="img"
+                width="100%">
+            </div>
+            <div class="card-footer">
+                <h4 class="text-center">Chocolate Ice Cream</h4>
+            </div>
+        </div>
+        <!-- gambar 2 -->
+        <div class="card col-lg-3 col-md-6 col-sm-12">
+            <div class="card-body">
+                <img src="icecream/cookiescream.jpg" class="img"
+                width="100%">
+            </div>
+            <div class="card-footer">
+                <h4 class="text-center">Cookies & Cream Ice Cream</h4>
+            </div>
+        </div>
+        <!-- gambar 3 -->
+        <div class="card col-lg-3 col-md-6 col-sm-12">
+            <div class="card-body">
+                <img src="icecream/matcha.jpg" class="img"
+                width="100%">
+            </div>
+            <div class="card-footer">
+                <h4 class="text-center">Matcha Ice Cream</h4>
+            </div>
+        </div>
+        <!-- gambar 4 -->
+        <div class="card col-lg-3 col-md-6 col-sm-12">
+            <div class="card-body">
+                <img src="icecream/mintchoco.jpg" class="img"
+                width="100%">
+            </div>
+            <div class="card-footer">
+                <h4 class="text-center">MintChoco Ice Cream</h4>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
